@@ -1,5 +1,5 @@
 # Inventário-Crud-POO, Security@
-## *Trabalho avaliativo referente às sprints 3,4 e 5 do Curso de Cibersegurança da faculdade Federal de Uberlândia.
+## *Trabalho avaliativo referente às sprints 3,4 e 5 do Curso de Cibersegurança da faculdade Federal de Uberlândia do primeiro semestre de 2026.
 
 De acordo com o meu entendimento acerca do projeto apresentado criei mais uma vez um Sistema de Inventário Crud(como o do último trabalho), porém, dessa vez, utilizando os novos conhecimentos adquiridos por meio das novas sprints em que dentre eles incluim às seguintes bases do projeto:
 ### -Programação orientada à objeto em Python.
