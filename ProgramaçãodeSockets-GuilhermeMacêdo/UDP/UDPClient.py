@@ -5,7 +5,7 @@ print("{:^45}".format("Cliente UDP Uppercase"))
 print("=" * 45, "\n")
 
 
-serverName = 'localhost'
+serverName = '10.0.99.150'
 serverPort = 1208
 clientSocket = socket(AF_INET,SOCK_DGRAM)
 
