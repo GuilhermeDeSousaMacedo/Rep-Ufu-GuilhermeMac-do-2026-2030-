@@ -1,5 +1,9 @@
 from socket import *
 
+print("=" * 45)
+print("{:^45}".format("Cliente UDP Uppercase"))
+print("=" * 45, "\n")
+
 serverName = 'localhost'
 severPort = 1208
 clientSocket = socket(AF_INET, SOCK_STREAM)
