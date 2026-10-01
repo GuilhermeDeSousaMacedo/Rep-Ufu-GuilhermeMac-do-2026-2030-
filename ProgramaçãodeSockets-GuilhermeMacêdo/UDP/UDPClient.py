@@ -1,6 +1,6 @@
 from socket import *
 
-serverName = 'guilherme-ufu'
+serverName = 'localhost'
 serverPort = 1228
 clientSocket = socket(AF_INET,SOCK_DGRAM)
 message = input('\nInput lowercase sentance\n')
