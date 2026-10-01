@@ -2,7 +2,7 @@
 ### A seguir irei documentar minha experiência em programação de Sockets seguindo os protocolos Tcp e Udp respectivamente mostrando suas funcionalidades, aplicações e funcionalidade no servidor dedicado da Ufu do curso de Cibersegurança tendo em base o Livro de [[Análise do Livro (Redes de computadores e a Internet ,Kurose [Sprint]]] e Aula de laboratório proposta em sala pelo professor Renato e ao mesmo tempo realizando a atividade avaliativa do curso de Cibersegurança.
 
 ### Nota:
-Apesar da atividade ter um caráter prático eu considero que seu valor se baseia mais no teórico devido a base em "Redes" que preciso entender para conseguir explicar suas características e aplicações.
+Apesar da atividade ter um caráter prático eu considero que seu valor se baseia mais no teórico devido a base em "Redes" que preciso entender para conseguir explicar suas características e aplicações além de informações correlacionadas na camada de aplicação.
 
 ## Protocolos utilizados:
 ### UDP (User Datagram Protocol)
