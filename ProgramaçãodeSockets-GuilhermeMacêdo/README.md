@@ -4,7 +4,7 @@
 ### Nota:
 Apesar da atividade ter um caráter prático eu considero que seu valor se baseia mais no teórico devido a base em "Redes" que preciso entender para conseguir explicar suas características e aplicações.
 
-#Protocolosutilizados:
+## Protocolos utilizados:
 ### UDP (User Datagram Protocol)
 
 O UDP é um protocolo da camada de transporte **sem conexão** e **não confiável**. Ele pega os dados da aplicação, adiciona um cabeçalho mínimo (portas de origem e destino, tamanho e checksum, 8 bytes no total) e envia o datagrama, sem estabelecer conexão antes e sem confirmar se chegou.
