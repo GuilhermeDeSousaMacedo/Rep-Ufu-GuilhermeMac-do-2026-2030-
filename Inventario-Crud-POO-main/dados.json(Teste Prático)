@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "tipo": "Laptop",
+        "hostname": "r",
+        "responsavel": "Guilherme Macêdo",
+        "setor": "",
+        "vulnerabilidades": [
+            {
+                "id": 1,
+                "descricao": "possivel quebra de tela",
+                "categoria": "hardware",
+                "severidade": "alta",
+                "status": "aberta"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tipo": "Roteador",
+        "hostname": "g",
+        "responsavel": "Guilherme Macêdo",
+        "setor": "Uberlândia-MG",
+        "vulnerabilidades": []
+    }
+]
