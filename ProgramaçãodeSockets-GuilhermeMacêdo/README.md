@@ -3,6 +3,8 @@
 
 ### Nota:
 Apesar da atividade ter um caráter prático eu considero que seu valor se baseia mais no teórico devido a base em "Redes" que preciso entender para conseguir explicar suas características e aplicações além de informações correlacionadas na camada de aplicação.
+# O Trabalho:
+O trabalho é bem simples constituindo-se de dois protocolos diferentes utilizados na programação de sockets no qual um texto minúsculo(lower.case) é enviado para o servidor, analisado e devolvido em Maiúsculo(upper.case) demonstrando assim a capacidade de comunicação entre dois dispositivos diferentes, que apesar da mesma aplicação(mesma função) possuem características distintas ao realizarem a tarefa de acordo com o respectivo protocolo:
 
 ## Protocolos utilizados:
 ### UDP (User Datagram Protocol)
