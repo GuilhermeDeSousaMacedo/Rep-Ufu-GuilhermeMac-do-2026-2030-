@@ -1,6 +1,6 @@
 from socket import *
 
-serverName = 'guilherme-ufu'
+serverName = '127.0.0.1'
 severPort = 1208
 clientSocket = socket(AF_INET, SOCK_STREAM)
 clientSocket.connect((serverName, severPort))
