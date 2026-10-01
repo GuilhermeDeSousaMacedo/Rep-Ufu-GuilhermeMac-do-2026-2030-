@@ -6,7 +6,7 @@ print("{:^45}".format("Cliente UDP Real -> Yuan"))
 print("=" * 45, "\n")
 
 # Uso: python UDPClient.py [ip_do_servidor] [porta]
-serverName = sys.argv[1] if len(sys.argv) > 1 else 'localhost'
+serverName = sys.argv[1] if len(sys.argv) > 1 else '10.0.99.150'
 serverPort = int(sys.argv[2]) if len(sys.argv) > 2 else 1208
 
 clientSocket = socket(AF_INET, SOCK_DGRAM)
