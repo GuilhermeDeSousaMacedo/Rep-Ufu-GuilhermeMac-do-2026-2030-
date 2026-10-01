@@ -6,6 +6,7 @@ Apesar da atividade ter um caráter prático eu considero que seu valor se basei
 # O Trabalho:
 O trabalho é bem simples constituindo-se de dois protocolos diferentes utilizados na programação de sockets no qual um texto minúsculo(lower.case) é enviado para o servidor, analisado e devolvido em Maiúsculo(upper.case) demonstrando assim a capacidade de comunicação entre dois dispositivos diferentes, que apesar da mesma aplicação(mesma função) possuem características distintas ao realizarem a tarefa de acordo com o respectivo protocolo
 # Execução do trabalho:
+Dentro de uma comand line faça os respectivos comandos:
 1. ssh guilherme.sousa@10.0.9.170(ip aleatório para proteção de servidor
 2. Aplicar senha requisitada para o acesso do servidor de cibersegurança da UFU
 3. Python3 TCPServer.py para o acesso ao servidor TCP ou Python3 UDPServer.py(de acordo com a aplicação escolhida)
