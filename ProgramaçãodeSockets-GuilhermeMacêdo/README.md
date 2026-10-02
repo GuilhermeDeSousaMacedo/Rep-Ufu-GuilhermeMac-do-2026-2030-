@@ -2,7 +2,7 @@
 ### A seguir irei documentar minha experiência em programação de Sockets seguindo os protocolos Tcp(Transmission Control Protocol) e Udp(User Datagram Protocol) respectivamente mostrando suas funcionalidades, aplicações e funcionalidade no servidor dedicado da Ufu do curso de Cibersegurança tendo em base o Livro de [Análise do Livro (Redes de computadores e a Internet ,Kurose [Sprint]] e Aula de laboratório proposta em sala pelo professor Renato e ao mesmo tempo realizando a atividade avaliativa do curso de Cibersegurança.
 
 ### Nota:
-Apesar da atividade ter um caráter prático eu considero que seu valor se baseia mais no teórico devido a base em "Redes" que preciso entender para conseguir explicar suas características e aplicações além, de informações correlacionadas na camada de aplicação.
+Apesar da atividade ter um caráter prático eu considero que seu valor se baseia mais no teórico devido a base em "Redes" que preciso entender para conseguir explicar suas características e aplicações além de informações correlacionadas na camada de aplicação.
 # O Trabalho:
 O trabalho é bem simples constituindo-se de dois protocolos e duas aplicações diferentes utilizados na programação de sockets no qual um texto minúsculo(lower.case) é enviado para o servidor, analisado e devolvido em Maiúsculo(upper.case) demonstrando assim a capacidade de comunicação entre dois dispositivos diferentes e o outro a conversão do Real(Moeda Brasileira) para Yuan(Moeda Chinesa) ao enviar o valor o servidor analisa e devolve a partir de uma operação o valor igualitário com a comparação Real x Yuan 
 # Execução do trabalho:
