@@ -4,7 +4,7 @@
 ### Nota:
 Apesar da atividade ter um caráter prático eu considero que seu valor se baseia mais no teórico devido a base em "Redes" que preciso entender para conseguir explicar suas características e aplicações além, de informações correlacionadas na camada de aplicação.
 # O Trabalho:
-O trabalho é bem simples constituindo-se de dois protocolos diferentes utilizados na programação de sockets no qual um texto minúsculo(lower.case) é enviado para o servidor, analisado e devolvido em Maiúsculo(upper.case) demonstrando assim a capacidade de comunicação entre dois dispositivos diferentes, que apesar da mesma aplicação(mesma função) possuem características distintas ao realizarem a tarefa de acordo com o respectivo protocolo
+O trabalho é bem simples constituindo-se de dois protocolos e duas aplicações diferentes utilizados na programação de sockets no qual um texto minúsculo(lower.case) é enviado para o servidor, analisado e devolvido em Maiúsculo(upper.case) demonstrando assim a capacidade de comunicação entre dois dispositivos diferentes e o outro a conversão do Real(Moeda Brasileira) para Yuan(Moeda Chinesa) ao enviar o valor o servidor analisa e devolve a partir de uma operação o valor igualitário com a comparação RealxYuan 
 # Execução do trabalho:
 Dentro de uma comand line faça os respectivos comandos:
 1. ssh guilherme.sousa@10.0.9.170(ip aleatório para proteção de servidor
