@@ -1,4 +1,4 @@
-# Trabalho avaliativo do segundo semestre do curso de Cibersegurança+laboratório do Professor Renato em sala de aula entre 09-09-2026 E 02-10-2026:
+# Trabalho avaliativo do segundo semestre do curso de Cibersegurança+Laboratório do Professor Renato em sala de aula entre 09-09-2026 E 02-10-2026:
 ### A seguir irei documentar minha experiência em programação de Sockets seguindo os protocolos Tcp(Transmission Control Protocol) e Udp(User Datagram Protocol) respectivamente mostrando suas funcionalidades, aplicações e funcionalidade no servidor dedicado da Ufu do curso de Cibersegurança tendo em base o Livro de [Análise do Livro (Redes de computadores e a Internet ,Kurose [Sprint]] e Aula de laboratório proposta em sala pelo professor Renato e ao mesmo tempo realizando a atividade avaliativa do curso de Cibersegurança.
 
 ### Nota:
@@ -24,11 +24,10 @@ O UDP é um protocolo da camada de transporte **sem conexão** e **não confiáv
 - Cabeçalho pequeno e baixa latência.
 - Cada datagrama é independente, com limites de mensagem preservados.
 
-**Quando usar:** quando velocidade importa mais que confiabilidade, ou quando a aplicação cuida da confiabilidade por conta própria. Exemplos: DNS, streaming de áudio e vídeo, VoIP, jogos online, DHCP e QUIC (que roda sobre UDP).
+**Quando usar:** quando velocidade importa mais que confiabilidade, ou quando a aplicação cuida da confiabilidade por conta própria. Exemplos: DNS (Domain Name System, ou Sistema de Nomes de Domínio), streaming de áudio e vídeo, VoIP (Voice over Internet Protocol, ou Voz sobre Protocolo de Internet), jogos online, DHCP (Dynamic Host Configuration Protocol, ou Protocolo de Configuração Dinâmica de Host) e QUIC (Quick UDP Internet Connections, ou Conexões de Internet UDP Rápidas) que roda sobre UDP (User Datagram Protocol, ou Protocolo de Datagrama de Usuário).
 
 ### TCP (Transmission Control Protocol)
-
-O TCP é um protocolo **orientado a conexão** e **confiável**. Antes de trocar dados, os dois lados estabelecem uma conexão por meio do **three-way handshake** (SYN → SYN-ACK → ACK). Depois disso, os dados trafegam como um **fluxo contínuo de bytes**, e não como mensagens separadas.
+O TCP (Transmission Control Protocol, ou Protocolo de Controle de Transmissão) é um protocolo orientado a conexão e confiável. Antes de trocar dados, os dois lados estabelecem uma conexão por meio do three-way handshake (SYN (Synchronize, ou Sincronizar) → SYN-ACK (Synchronize-Acknowledge, ou Sincronizar-Confirmar) → ACK (Acknowledgment, ou Confirmação)). Depois disso, os dados trafegam como um fluxo contínuo de bytes, e não como mensagens separadas.
 
 **Características:**
 
@@ -39,4 +38,4 @@ O TCP é um protocolo **orientado a conexão** e **confiável**. Antes de trocar
 - **Encerramento ordenado:** a conexão é fechada com troca de FIN/ACK.
 - Cabeçalho maior (mínimo de 20 bytes) e mais overhead.
 
-**Quando usar:** quando perder ou embaralhar dados não é aceitável. Exemplos: HTTP/HTTPS, e-mail (SMTP, IMAP), SSH, FTP e transferência de arquivos em geral.
+**Quando usar: quando perder ou embaralhar dados não é aceitável. Exemplos: HTTP (Hypertext Transfer Protocol, ou Protocolo de Transferência de Hipertexto)/HTTPS (Hypertext Transfer Protocol Secure, ou Protocolo de Transferência de Hipertexto Seguro), e-mail (SMTP (Simple Mail Transfer Protocol, ou Protocolo Simples de Transferência de Correio), IMAP (Internet Message Access Protocol, ou Protocolo de Acesso a Mensagens da Internet)), SSH (Secure Shell, ou Shell Seguro), FTP (File Transfer Protocol, ou Protocolo de Transferência de Arquivos) e transferência de arquivos em geral.**
